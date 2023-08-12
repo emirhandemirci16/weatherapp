@@ -1,0 +1,61 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main section styling */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Input and button styling */
+#cityInput {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 2px solid #333;
+}
+
+#getWeatherButton {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#getWeatherButton:hover {
+  background-color: #0069d9;
+}
+
+/* Weather info styling */
+#weatherInfo {
+    margin-top:2rem; 
+    padding:1rem; 
+    background-color:white; 
+    border-radius:10px; 
+    box-shadow:0px,0px,10px,rgba(0,0,0,0.1);
+}
